@@ -17,3 +17,8 @@ git config --global alias.emerge '!GIT_SSH_COMMAND="ssh -i ~/.ssh/798" git -c us
 ```
 git config --global alias.ecommit '!GIT_SSH_COMMAND="ssh -i ~/.ssh/798" git -c user.name="ethanshamilton" -c user.email="ethan.hamilton798@gmail.com" commit'
 ```
+
+- eclone
+```
+git config --global alias.eclone '!GIT_SSH_COMMAND="ssh -i ~/.ssh/798" git -c user.name="ethanshamilton' -c user.email="ethan.hamilton798@gmail.com" clone'
+```
