@@ -1,0 +1,37 @@
+onboarding = false
+# Neurostack — high-contrast theme inspired by ~/.tmux.conf.
+[theme]
+name = "catppuccin"
+
+[theme.custom]
+# True-black chrome; subtle orange active sidebar rows.
+panel_bg = "#000000"
+surface_dim = "#3b200d"
+
+# Subtle orange inactive tabs and selection highlights.
+surface0 = "#3b200d"
+surface1 = "#573015"
+mauve = "#ffb347"
+blue = "#ffb347"
+
+# Orange active accents; white text and inactive pane borders.
+accent = "#ff8c00"
+overlay0 = "#ffffff"
+overlay1 = "#ffffff"
+text = "#ffffff"
+subtext0 = "#b8b8b8"
+peach = "#ff8c00"
+yellow = "#ff8c00"
+
+[keys]
+prefix = "ctrl+a"
+split_vertical = 'prefix+%'
+split_horizontal = 'prefix+"'
+
+[ui]
+pane_borders = true
+pane_gaps = false
+
+agent_panel_sort = "spaces"
+[ui.sound]
+enabled = false
